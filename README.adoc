@@ -1,0 +1,14 @@
+a0html
+======
+
+*a0html* is a simple html and css template to render A0 poster.
+
+(It is almost only for me because no one want to use html to render A0 poster.)
+
+== usage
+
+1. move `poster.html` and `poster.css` to some directory.
+2. write contents into `poster.html`.
+3. view `poster.html` on your web browser, and do "print to file" to render the poster to ".pdf" or some other file formats. 
+
+(link:https://github.com/wkhtmltopdf/wkhtmltopdf[wkhtmltopdf] is also a good rendering tool. However, `wkhtmltopdf` has a rendering bug when you use svg files which contain embeded images. 2017-09-13)
